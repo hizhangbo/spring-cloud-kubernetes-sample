@@ -57,7 +57,7 @@
                 <artifactId>fabric8-maven-plugin</artifactId>
                 <version>4.0.0</version>
                 <configuration>
-                    <registry>localhost:5000</registry>
+                    <registry>192.168.127.100:5000</registry>
                 </configuration>
                 <executions>
                     <execution>
