@@ -56,6 +56,9 @@
                 <groupId>io.fabric8</groupId>
                 <artifactId>fabric8-maven-plugin</artifactId>
                 <version>4.0.0</version>
+                <configuration>
+                    <registry>192.168.1.100:5000</registry>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
